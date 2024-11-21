@@ -8,12 +8,12 @@ func variables(nm string, ag int, student bool) bool {
   var isStudent bool = student
 
   const (
-    firstName string = "Abdul"
-    lastName = "Azis"
+    isOnline bool = true
+    isActive bool = false
   )
 
   fmt.Println(name, age, isStudent)
-  fmt.Println(firstName, lastName)
+  fmt.Println(isOnline)
 
   return true
 }
