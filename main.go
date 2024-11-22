@@ -113,4 +113,5 @@ func main() {
   modules.Calculate(1,2,3,4,5)
   modules.Slice()
   modules.Array()
+  modules.Map();
 }
