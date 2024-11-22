@@ -11,6 +11,18 @@ func variables(nm string, ag int, student bool) bool {
 	var age int = ag
 	var isStudent bool = student
 
+  x := 0;
+
+  fmt.Println(x)
+
+  x, y := 1, 2
+
+  fmt.Println(x,y)
+
+  var city, country string = "Tangerang", "Indonesia"
+
+  fmt.Println(city,country)
+
 	const (
 		isOnline bool = true
 		isActive bool = false
