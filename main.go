@@ -113,6 +113,9 @@ func main() {
   modules.Calculate(1,2,3,4,5)
   modules.Slice()
   modules.Array()
-  modules.Map();
-  modules.Make();
+  modules.Map()
+  modules.Make()
+  modules.If()
+  modules.Switch()
+  modules.For()
 }
