@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+  "aku-cinta-go/models"
 )
 
 func variables(nm string, ag int, student bool) bool {
@@ -65,6 +66,18 @@ func students(student []string) ([]string) {
   return student
 }
 
+func Users(data models.User) (models.User) {
+  var user1 models.User = models.User{Id: data.Id, Username: data.Username}
+  user  := models.UserWithEmail{Id: 2, Username: "Azis", Email: "azis@yahoo.co.id"}
+  box := []string{}
+
+  box = append(box, user1.Username)
+  box = append(box, user.Email)
+
+  fmt.Println(box)
+  return data
+}
+
 func main() {
   vrb := variables("Azis", 17, true)
   als := alias()
@@ -73,8 +86,12 @@ func main() {
   student := []string{"Azis", "Abdul"}
   stds := students(student)
 
+  data := models.User{Id: 1, Username: "Abdul"}
+  users := Users(data)
+
   fmt.Println(vrb)
   fmt.Println(als)
   fmt.Println(nums)
   fmt.Println(stds)
+  fmt.Println(users)
 }
