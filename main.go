@@ -74,6 +74,8 @@ func Users(data models.User) (models.User) {
   box = append(box, user1.Username)
   box = append(box, user.Email)
 
+  fmt.Println(user1)
+  fmt.Println(user)
   fmt.Println(box)
   return data
 }
