@@ -114,4 +114,5 @@ func main() {
   modules.Slice()
   modules.Array()
   modules.Map();
+  modules.Make();
 }
