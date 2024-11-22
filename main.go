@@ -111,4 +111,6 @@ func main() {
 	fmt.Println(users)
   modules.Hello("Azis")
   modules.Calculate(1,2,3,4,5)
+  modules.Slice()
+  modules.Array()
 }
