@@ -1,8 +1,8 @@
 package main
 
 import (
-  "aku-cinta-go/modules"
 	"aku-cinta-go/models"
+	"aku-cinta-go/modules"
 	"fmt"
 )
 
@@ -11,17 +11,17 @@ func variables(nm string, ag int, student bool) bool {
 	var age int = ag
 	var isStudent bool = student
 
-  x := 0;
+	x := 0
 
-  fmt.Println(x)
+	fmt.Println(x)
 
-  x, y := 1, 2
+	x, y := 1, 2
 
-  fmt.Println(x,y)
+	fmt.Println(x, y)
 
-  var city, country string = "Tangerang", "Indonesia"
+	var city, country string = "Tangerang", "Indonesia"
 
-  fmt.Println(city,country)
+	fmt.Println(city, country)
 
 	const (
 		isOnline bool = true
@@ -109,13 +109,13 @@ func main() {
 	fmt.Println(nums)
 	fmt.Println(stds)
 	fmt.Println(users)
-  modules.Hello("Azis")
-  modules.Calculate(1,2,3,4,5)
-  modules.Slice()
-  modules.Array()
-  modules.Map()
-  modules.Make()
-  modules.If()
-  modules.Switch()
-  modules.For()
+	modules.Hello("Azis")
+	modules.Calculate(1, 2, 3, 4, 5)
+	modules.Slice()
+	modules.Array()
+	modules.Map()
+	modules.Make()
+	modules.If()
+	modules.Switch()
+	modules.For()
 }
