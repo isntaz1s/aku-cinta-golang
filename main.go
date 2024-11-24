@@ -104,6 +104,10 @@ func main() {
 	data := models.User{Id: 1, Username: "Abdul"}
 	users := Users(data)
 
+	fp := func(val string) string {
+		return val
+	}
+
 	fmt.Println(vrb)
 	fmt.Println(als)
 	fmt.Println(nums)
@@ -118,4 +122,7 @@ func main() {
 	modules.If()
 	modules.Switch()
 	modules.For()
+	modules.Func("Uhuy")
+	modules.FunctionParameter(fp)
+	modules.FunctionValue("Uhuy")
 }
