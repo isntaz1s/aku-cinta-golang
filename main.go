@@ -3,6 +3,7 @@ package main
 import (
 	"aku-cinta-go/models"
 	"aku-cinta-go/modules"
+	_ "aku-cinta-go/packages"
 	"fmt"
 )
 
