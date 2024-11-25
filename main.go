@@ -125,4 +125,6 @@ func main() {
 	modules.Func("Uhuy")
 	modules.FunctionParameter(fp)
 	modules.FunctionValue("Uhuy")
+	modules.Panic("Cihuy")
+	modules.Nil()
 }
