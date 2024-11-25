@@ -127,4 +127,6 @@ func main() {
 	modules.FunctionValue("Uhuy")
 	modules.Panic("Cihuy")
 	modules.Nil()
+	modules.Pointer()
+	modules.Error()
 }
